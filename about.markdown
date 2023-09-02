@@ -10,6 +10,31 @@ permalink: /about/
 
 Мне нравится JavaScript за его универсальность (дополнительное спасибо Node.js) и TypeScript за привносимый им порядок.
 
+### Skills 
+Применяю:
+- JavaScript, Typescript, Angular.js, HTML/CSS, Git    
+
+Имею представление:
+- Node.js, Express.js, SQL, Python, C++, SASS    
+
+Пользуюсь:
+- WebStorm, VSCode, Postman, Fiddler, Jira, GitLab, GitHub    
+
+Хочу посмотреть:
+- React, Dart, Flutter, Rust    
+
+<!-- ### Работа и обучение -->
+
+### Про эту страницу
+
+Это - небольшая заготовка для персональной странички-визитки-резюме для дальнейшего использования (ситуацию "сапожник без сапог" надо исправлять :) ).
+
+Я планирую постепенно добавлять сюда:
+- оформление
+- пет-проекты с их описанием и примененными технологиями - пока что можно посмотреть в профиле гитхаба
+- сведения о курсах и образовании - частично есть в профиле Хабр Карьеры
+
+
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
