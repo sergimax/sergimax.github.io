@@ -28,6 +28,7 @@ github_username:  gitoqe
 
 # Build settings
 # TODO Разобраться и добавить темную тему
+# For files customization - bundle show minima
 theme: minima
 plugins:
   - jekyll-feed
