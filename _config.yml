@@ -34,7 +34,7 @@ plugins:
 # https://jekyllrb.com/docs/collections/
 collections:
   occupations:
-    sort_by: from
+    sort_by: to
     output: true
 collections_dir: my_collections
 
