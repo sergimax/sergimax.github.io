@@ -1,41 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <title>Максим Сергиенко</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
-</head>
-<body>
-<div class="block">
-  <h1>Максим Сергиенко</h1>
-  <p>веб разработчик</p>
-  <ul>
-    <li>
-      telegram:
-      <a href="https://t.me/sergimax">@sergimax</a>
-    </li>
-    <li>
-      e-mail:
-      <a href="mailto:creativesun@yandex.ru">creativesun@yandex.ru</a>
-    </li>
-    <li>
-      habr.career:
-      <a href="https://career.habr.com/sergimax">sergimax</a>
-    </li>
-    <li>
-      linkedin:
-      <a href="https://www.linkedin.com/in/sergimax">sergimax</a>
-    </li>
-  </ul>
-</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Максим Сергиенко</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="block">
+      <h1>Максим Сергиенко</h1>
+      <p class="subtitle">веб разработчик</p>
+      <section>
+        <h2>Контакты</h2>
+        <ul>
+          <li>
+            telegram:
+            <a href="https://t.me/sergimax">@sergimax</a>
+          </li>
+          <li>
+            e-mail:
+            <a href="mailto:creativesun@yandex.ru">creativesun@yandex.ru</a>
+          </li>
+          <li>
+            habr.career:
+            <a href="https://career.habr.com/sergimax">sergimax</a>
+          </li>
+          <li>
+            linkedin:
+            <a href="https://www.linkedin.com/in/sergimax">sergimax</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Мои навыки</h2>
+        <table>
+          <caption>
+            Языки
+          </caption>
+          <thead>
+            <th>Языки</th>
+            <th>Опыт \ Описание</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JavaScript, TypeScript, HTML и CSS</td>
+              <td>Мой постоянный набор рабочих инструментов с 2020 года</td>
+            </tr>
+            <tr class="irrelevant">
+              <td>C, C++</td>
+              <td>
+                Преподавал базу программирования (C++) и основы робототехники
+                (C) для школьников средних и старших классов. 2015 - 2021
+              </td>
+            </tr>
+            <tr class="irrelevant">
+              <td>Python, Pascal</td>
+              <td>Использовал в учебных проектах в университете</td>
+            </tr>
+            <tr class="irrelevant">
+              <td>Dart + Flutter</td>
+              <td>Использовал на курсе Flutter-разработчика от Otus</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>
+            Фреймворки, библиотеки и технологии
+          </caption>
+          <thead>
+            <th>Технология</th>
+            <th>Опыт \ Описание</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>React, Redux, Redux Toolkit</td>
+              <td>
+                Постоянно использую с конца 2023. Основной рабочий набор
+                инструментов на данный момент
+              </td>
+            </tr>
+            <tr>
+              <td>Angular JS, Cordova, Ionic, SCSS</td>
+              <td>
+                Постоянно использую с начала 2022 в разработке мобильного
+                приложения в RStyle Softlab
+              </td>
+            </tr>
+            <tr>
+              <td>Node JS</td>
+              <td>
+                Применяю для любой автоматизации, быстрых решений и под
+                пет-проекты. Побочно - в рабочих задачах
+              </td>
+            </tr>
+            <tr>
+              <td>Webpack, Vite</td>
+              <td>
+                Вебпак применяется на рабочих проектах, но вся параметризация
+                сделана до меня. Для пет-проектов выбираю Vite
+              </td>
+            </tr>
+            <tr class="irrelevant">
+              <td>Angular (~12), Bulma, karma</td>
+              <td>
+                Использовал на последних курсах университета, а также для
+                написания дипломной работы
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <caption>
+            Около разработки
+          </caption>
+          <thead>
+            <th>Технология</th>
+            <th>Опыт \ Описание</th>
+          </thead>
+            <tbody>
+              <tr>
+                <td>Gitlab, Github</td>
+                <td>Основной рабочий инструмент - Gitlab. Github - выбор для пет-проектов</td>
+              </tr>
+              <tr>
+                <td>Тестирование</td>
+                <td>TDD в рабочих проектах не практиковался, но базовые юнит-тесты приходилось писать</td>
+              </tr>
+              <tr>
+                <td>Jira, YouTrack, Agile, Scrum</td>
+                <td>С классическим форматом организации работы в команде знаком</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+  </body>
 </html>
