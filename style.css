@@ -75,6 +75,20 @@ ul.projects li > a:first-of-type {
   font-weight: 600;
 }
 
+/* Wide screens only: projects read well in two columns; skills tables stay one column */
+@media (min-width: 52rem) {
+  ul.projects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 1.25rem;
+    row-gap: 1.1rem;
+  }
+
+  ul.projects li {
+    margin-bottom: 0;
+  }
+}
+
 caption,
 figcaption {
   margin-top: 16px;
