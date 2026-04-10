@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Максим Сергиенко — веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+    />
+    <link rel="canonical" href="https://sergimax.github.io/" />
+
+    <meta property="og:site_name" content="Максим Сергиенко" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Максим Сергиенко" />
+    <meta
+      property="og:description"
+      content="Веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+    />
+    <meta property="og:url" content="https://sergimax.github.io/" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Максим Сергиенко" />
+    <meta
+      name="twitter:description"
+      content="Веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+    />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Максим Сергиенко</title>
@@ -19,11 +40,11 @@
       <p class="subtitle">
         веб разработчик
         <br />
-        <sub>React, TypeScript, Redux, HTML\CSS\SCSS</sub>
+        <sub>React, TypeScript, Redux, HTML/CSS/SCSS</sub>
       </p>
-      <section>
-        <figure>
-          <figcaption>Контакты</figcaption>
+      <section aria-labelledby="contacts-heading">
+        <h2 id="contacts-heading">Контакты</h2>
+        <nav aria-labelledby="contacts-heading">
           <ul>
             <li>
               <a href="https://t.me/sergimax">t.me/sergimax</a> - Телеграм
@@ -45,7 +66,7 @@
               - LinkedIn
             </li>
           </ul>
-        </figure>
+        </nav>
       </section>
       <section>
         <h2>Мои навыки</h2>
@@ -54,8 +75,10 @@
             Языки
           </caption>
           <thead>
-            <th>Языки</th>
-            <th>Опыт \ Описание</th>
+            <tr>
+              <th>Языки</th>
+              <th>Опыт \ Описание</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -92,8 +115,10 @@
             Фреймворки, библиотеки и технологии
           </caption>
           <thead>
-            <th>Технология</th>
-            <th>Опыт \ Описание</th>
+            <tr>
+              <th>Технология</th>
+              <th>Опыт \ Описание</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -104,9 +129,9 @@
               </td>
             </tr>
             <tr>
-              <td>Angular JS, Cordova, Ionic, SCSS</td>
+              <td>AngularJS, Cordova, Ionic, SCSS</td>
               <td>
-                Постоянно использую с начала 2022 в разработке мобильного
+                Использовал с 2022 по 2025 в разработке мобильного
                 приложения в RStyle Softlab
               </td>
             </tr>
@@ -138,8 +163,10 @@
             Около разработки
           </caption>
           <thead>
-            <th>Технология</th>
-            <th>Опыт \ Описание</th>
+            <tr>
+              <th>Технология</th>
+              <th>Опыт \ Описание</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -153,7 +180,7 @@
               <td>Тестирование и отладка</td>
               <td>
                 TDD в рабочих проектах не практиковался, но для юнит-тестов
-                использовал Jest и для e2e немного Puppetteer
+                использовал Jest и для e2e немного Puppeteer
               </td>
             </tr>
             <tr>
