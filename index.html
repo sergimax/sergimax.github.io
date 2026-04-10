@@ -195,27 +195,59 @@
           </tbody>
         </table>
       </section>
-      <!-- <section>
-        <figure>
-          <figcaption>Проекты></figcaption>
-          <ul>
-            <li>
+      <section aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Проекты</h2>
+        <div class="projects">
+          <article class="project-card">
+            <h3 class="project-title">
               <a href="https://github.com/sergimax/react-vite-ts-starter"
-                >бургерная Stellar Burgers</a
+                >Stellar Burgers</a
               >
-              - проект курса React-разработчик от Yandex Практикум
-            </li>
-          </ul>
-        </figure>
-      </section> -->
+            </h3>
+            <p class="project-stack">Vite, React, TypeScript, Redux</p>
+            <p class="project-desc">
+              Учебный проект курса «React-разработчик» Яндекс Практикум —
+              бургерная с конструктором заказа и личным кабинетом.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">
+              <a href="https://github.com/sergimax/simple-name-picker"
+                >Simple name picker</a
+              >
+            </h3>
+            <p class="project-stack">Vite, React, TypeScript, localStorage</p>
+            <p class="project-desc">
+              Небольшое приложение: случайный выбор имени из списка, рейтинг
+              (нравится / не нравится), бан и сохранение состояния в браузере.
+            </p>
+            <p class="project-links">
+              <a href="https://sergimax.ru/simple-name-picker/">Демо</a>
+            </p>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">
+              <a href="https://github.com/sergimax/my-raid-cds">My Raid CDs</a>
+            </h3>
+            <p class="project-stack">Vite, React, TypeScript, localStorage</p>
+            <p class="project-desc">
+              Учёт рейдовых кулдаунов по персонажам и подземельям; шаблон рейдов
+              WoW WotLK, данные в localStorage.
+            </p>
+            <p class="project-links">
+              <a href="https://sergimax.ru/my-raid-cds/">Демо</a>
+            </p>
+          </article>
+        </div>
+      </section>
       <section>
         <h2>Интересно было бы изучить или иметь лучшее представление</h2>
         <ul>
-          <li>Next.js и SSR - для полноформатной разработки</li>
           <li>Node.js - для более глубокого понимания</li>
-          <li>WebGL - для серьезной графики</li>
           <li>Rust и WebAssembly - для тяжеловесных решений</li>
+          <li>WebGL - для серьезной графики</li>
           <li>WebSockets, GraphQL, PostgreSQL, Docker, FP</li>
+          <li>Next.js и SSR - для полноформатной разработки</li>
           <li>gamedev (?)</li>
         </ul>
       </section>
