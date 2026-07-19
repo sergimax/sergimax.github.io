@@ -2,10 +2,15 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <!-- <script>
+      if (location.hostname !== "sergimax.ru") {
+        location.replace("https://sergimax.ru");
+      }
+    </script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Максим Сергиенко — веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+      content="Персональная страница Максима Сергиенко переехала на sergimax.ru."
     />
     <link rel="canonical" href="https://sergimax.ru/" />
 
@@ -14,7 +19,7 @@
     <meta property="og:title" content="Максим Сергиенко" />
     <meta
       property="og:description"
-      content="Веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+      content="Основная информация теперь на sergimax.ru."
     />
     <meta property="og:url" content="https://sergimax.ru/" />
 
@@ -22,219 +27,30 @@
     <meta name="twitter:title" content="Максим Сергиенко" />
     <meta
       name="twitter:description"
-      content="Веб‑разработчик. React, TypeScript, Redux, HTML/CSS/SCSS."
+      content="Основная информация теперь на sergimax.ru."
     />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <title>Максим Сергиенко</title>
+    <title>Максим Сергиенко — sergimax.ru</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="block">
+    <main class="notice">
       <h1>Максим Сергиенко</h1>
       <p class="subtitle">
-        веб разработчик
+        <small>веб разработчик</small>
         <br />
         <small>React, TypeScript, Redux, HTML/CSS/SCSS</small>
       </p>
-      <section aria-labelledby="contacts-heading">
-        <h2 id="contacts-heading">Контакты</h2>
-        <nav aria-labelledby="contacts-heading">
-          <ul>
-            <li>
-              <a href="https://t.me/sergimax">t.me/sergimax</a> - Телеграм
-            </li>
-            <li>
-              <a href="mailto:creativesun@yandex.ru">creativesun@yandex.ru</a>
-              - e-mail
-            </li>
-            <li>
-              <a href="https://career.habr.com/sergimax"
-                >career.habr.com/sergimax</a
-              >
-              - Хабр Карьера
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/sergimax"
-                >linkedin.com/in/sergimax</a
-              >
-              - LinkedIn
-            </li>
-          </ul>
-        </nav>
-      </section>
-      <section aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Проекты</h2>
-        <ul class="projects">
-          <li>
-            <a href="https://github.com/sergimax/react-vite-ts-starter"
-              >Stellar Burgers</a
-            >
-            <span class="stack">Vite, React, TypeScript, Redux</span>
-            Учебный проект курса «React-разработчик» Яндекс Практикум — бургерная
-            с конструктором заказа и личным кабинетом.
-          </li>
-          <li>
-            <a href="https://github.com/sergimax/simple-name-picker"
-              >Simple name picker</a
-            >
-            <span class="stack">Vite, React, TypeScript, localStorage</span>
-            Небольшое приложение: случайный выбор имени из списка, рейтинг
-            (нравится / не нравится), бан и сохранение состояния в браузере.
-            · <a href="https://sergimax.ru/simple-name-picker/">Демо</a>
-          </li>
-          <li>
-            <a href="https://github.com/sergimax/my-raid-cds">My Raid CDs</a>
-            <span class="stack">Vite, React, TypeScript, localStorage</span>
-            Учёт рейдовых кулдаунов по персонажам и подземельям; шаблон рейдов
-            WoW WotLK, данные в localStorage.
-            · <a href="https://sergimax.ru/my-raid-cds/">Демо</a>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Мои навыки</h2>
-        <table>
-          <caption>
-            Языки
-          </caption>
-          <thead>
-            <tr>
-              <th>Языки</th>
-              <th>Опыт \ Описание</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>JavaScript, TypeScript, HTML и CSS</td>
-              <td>Мой постоянный набор рабочих инструментов с 2020 года</td>
-            </tr>
-            <tr class="irrelevant">
-              <td>C, C++</td>
-              <td>
-                Преподавал базу программирования (C++) и основы робототехники
-                (C) для школьников средних и старших классов. 2015 - 2021
-              </td>
-            </tr>
-            <tr class="irrelevant">
-              <td>Python, Pascal</td>
-              <td>Использовал в учебных проектах в университете</td>
-            </tr>
-            <tr class="irrelevant">
-              <td>Dart + Flutter</td>
-              <td>Использовал на курсе Flutter-разработчика от Otus</td>
-            </tr>
-            <tr class="irrelevant">
-              <td>English</td>
-              <td>
-                Читаю и воспринимаю на слух вполне свободно. Сертификация от EF
-                SET говорит, что у меня
-                <a href="https://cert.efset.org/en/AsL2fh">C2 proficient</a>🤔
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <caption>
-            Фреймворки, библиотеки и технологии
-          </caption>
-          <thead>
-            <tr>
-              <th>Технология</th>
-              <th>Опыт \ Описание</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>React, Redux, Redux Toolkit</td>
-              <td>
-                Постоянно использую с конца 2023. Основной рабочий набор
-                инструментов на данный момент
-              </td>
-            </tr>
-            <tr>
-              <td>AngularJS, Cordova, Ionic, SCSS</td>
-              <td>
-                Использовал с 2022 по 2025 в разработке мобильного
-                приложения в RStyle Softlab
-              </td>
-            </tr>
-            <tr>
-              <td>Node.js</td>
-              <td>
-                Применяю для любой автоматизации, быстрых решений и под
-                пет-проекты. Побочно - в рабочих задачах
-              </td>
-            </tr>
-            <tr>
-              <td>Webpack, Vite</td>
-              <td>
-                Вебпак применяется на рабочих проектах, но вся настройка
-                проведена до меня. Для пет-проектов выбираю Vite
-              </td>
-            </tr>
-            <tr class="irrelevant">
-              <td>Angular (~12), Bulma, karma, SQLite</td>
-              <td>
-                Использовал на последних курсах университета, а также для
-                написания дипломной работы
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table>
-          <caption>
-            Около разработки
-          </caption>
-          <thead>
-            <tr>
-              <th>Технология</th>
-              <th>Опыт \ Описание</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Gitlab, Github</td>
-              <td>
-                Основной рабочий инструмент - Gitlab. Github - выбор для
-                пет-проектов. Преимущественно с Gitflow и Conventional Commits
-              </td>
-            </tr>
-            <tr>
-              <td>Тестирование и отладка</td>
-              <td>
-                TDD в рабочих проектах не практиковался, но для юнит-тестов
-                использовал Jest и для e2e немного Puppeteer
-              </td>
-            </tr>
-            <tr>
-              <td>Jira, YouTrack, Agile, Scrum, Confluence, Figma</td>
-              <td>
-                Веду задачи в джире, взаимодействую с командой (от дизайнера
-                макеты в фигме, от бэкенд разработчика описание запросов
-                REST-спецификации в swagger, от аналитика - описание в
-                конфлюэнс, от тестирования - фидбэк по возникшим дефектам)
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section>
-        <h2>Интересно было бы изучить или иметь лучшее представление</h2>
-        <ul>
-          <li>Node.js - для более глубокого понимания</li>
-          <li>Rust и WebAssembly - для тяжеловесных решений</li>
-          <li>WebGL - для серьезной графики</li>
-          <li>WebSockets, GraphQL, PostgreSQL, Docker, FP</li>
-          <li>Next.js и SSR - для полноформатной разработки</li>
-          <li>gamedev (?)</li>
-        </ul>
-      </section>
-    </div>
+      <p>
+        Основная информация теперь на
+        <a href="https://sergimax.ru/">sergimax.ru</a>.
+      </p>
+    </main>
   </body>
 </html>
